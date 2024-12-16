@@ -2,13 +2,12 @@
 name = "doip_rw"
 version = "0.1.0"
 authors = [ "Robert Jarzmik <robert.jarzmik@free.fr>"]
-categories = [ "Encoding", "network Programming" ]
+categories = [ "encoding", "parsing", "network-programming" ]
 license = "MIT"
 repository = "https://github.com/rjarzmik/doip_rw.git"
 keywords = [ "network", "protocol", "serialization" ]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Diagnostic over IP encoder and decoder"
 
 [dependencies]
 byteorder = { version = "1" }
